@@ -1,0 +1,25 @@
+.contenxt-wrap {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; background-size: cover;
+}
+
+.form-wrap {
+    width: 50%;
+    height: 70%;
+    border: 1px solid black;
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+ 
+}.container-wrap{width:90%}
+.form-action{
+    display: flex;
+    justify-content: center;
+}
+.form-action button{
+    width: 90%;
+    height: 50px;
+}

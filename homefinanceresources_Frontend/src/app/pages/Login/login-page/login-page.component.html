@@ -1,0 +1,17 @@
+<div class="contenxt-wrap">
+    <div class="form-wrap">
+        <div class="container-wrap">
+            <app-form-wrap-comp>
+                <app-form-element-input-comp [parameter]="formParameter.account" class="form-item"
+                    (returnValue)="setAccountValue($event)"></app-form-element-input-comp>
+                <app-form-element-input-comp [parameter]="formParameter.password" class="form-item"
+                    (returnValue)="setPasswordValue($event)"></app-form-element-input-comp>
+
+                <div class="form-action">
+                    <button>Login</button>
+                </div>
+            </app-form-wrap-comp>
+        </div>
+    </div>
+
+</div>
